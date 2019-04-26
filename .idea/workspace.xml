@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30e8a3df-3fda-421b-916c-aee40bab0bbe" name="Default Changelist" comment="" />
+    <list default="true" id="30e8a3df-3fda-421b-916c-aee40bab0bbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MatplotDemos/demo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumpyDemos/.ipynb_checkpoints/5. ndarray_ops-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NumpyDemos/.ipynb_checkpoints/5. ndarray_ops-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumpyDemos/5. ndarray_ops.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NumpyDemos/5. ndarray_ops.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +21,7 @@
     <SUITE FILE_PATH="coverage/DataMining$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1555216376357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotDemos" />
     <SUITE FILE_PATH="coverage/DataMining$datatype_demo.coverage" NAME="datatype_demo Coverage Results" MODIFIED="1545493780773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PandasDemos" />
     <SUITE FILE_PATH="coverage/DataMining$data_onehot.coverage" NAME="data_onehot Coverage Results" MODIFIED="1545984894276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PandasDemos" />
+    <SUITE FILE_PATH="coverage/DataMining$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1556248460320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotDemos" />
     <SUITE FILE_PATH="coverage/DataMining$gridspecDemo1.coverage" NAME="gridspecDemo1 Coverage Results" MODIFIED="1546236172235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotDemos" />
     <SUITE FILE_PATH="coverage/DataMining$ttl_parser.coverage" NAME="ttl_parser Coverage Results" MODIFIED="1545966437456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/other" />
     <SUITE FILE_PATH="coverage/DataMining$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1546094991916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PandasDemos" />
@@ -49,8 +57,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="2" />
+          <entry key="ignore" value="2" />
           <entry key="ipynb" value="2" />
-          <entry key="py" value="51" />
+          <entry key="py" value="54" />
           <entry key="pyi" value="1" />
           <entry key="ttl" value="2" />
           <entry key="txt" value="1" />
@@ -59,24 +68,25 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="2" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="51" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="54" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="8439" />
+          <entry key="Python Console" value="8489" />
           <entry key="csv" value="13" />
           <entry key="dummy" value="14" />
-          <entry key="py" value="3420" />
+          <entry key="ignore" value="5" />
+          <entry key="py" value="5062" />
           <entry key="ttl" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="11859" />
+          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="Python" value="13551" />
         </counts>
       </usages-collector>
     </session>
@@ -94,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatplotDemos/demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -106,35 +116,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatplotDemos/demo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="9">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/core/shape_base.py">
+        <entry file="file://$PROJECT_DIR$/MatplotDemos/gridspecDemo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="286" column="8" selection-start-line="286" selection-start-column="8" selection-end-line="286" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/lib/function_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="5155" column="7" selection-start-line="5155" selection-start-column="7" selection-end-line="5155" selection-end-column="7" />
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py">
+        <entry file="file://$PROJECT_DIR$/MatplotDemos/demo3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="2649" column="4" selection-start-line="433" selection-start-column="34" selection-end-line="433" selection-end-column="42" />
+            <state relative-caret-position="615">
+              <caret line="75" selection-start-line="75" selection-end-line="76" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1556248460314" expanded="true" signature="132:137" ph="..." />
+                <marker date="1556248460314" expanded="true" signature="397:406" ph="..." />
+                <marker date="1556248460314" expanded="true" signature="1019:1028" ph="..." />
+                <marker date="1556248460314" expanded="true" signature="1019:2330" ph="..." />
+                <marker date="1556248460314" expanded="true" signature="1488:1497" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,6 +166,9 @@
       <find>tab10</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -176,6 +188,8 @@
         <option value="$PROJECT_DIR$/SklearnDemos/stand_normal.py" />
         <option value="$PROJECT_DIR$/MatplotDemos/demo1.py" />
         <option value="$PROJECT_DIR$/MatplotDemos/demo2.py" />
+        <option value="$PROJECT_DIR$/.ignore" />
+        <option value="$PROJECT_DIR$/MatplotDemos/demo3.py" />
       </list>
     </option>
   </component>
@@ -186,11 +200,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="201" />
-    <option name="y" value="82" />
+    <option name="x" value="234" />
+    <option name="y" value="35" />
     <option name="width" value="1228" />
     <option name="height" value="817" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -209,11 +224,6 @@
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataMining" type="462c0819:PsiDirectoryNode" />
               <item name="MatplotDemos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataMining" type="462c0819:PsiDirectoryNode" />
-              <item name="SklearnDemos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
@@ -374,7 +384,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo2">
+  <component name="RunManager" selected="Python.demo3">
     <configuration name="DataMining" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -391,28 +401,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
-      <method v="2" />
-    </configuration>
-    <configuration name="data_onehot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataMining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PandasDemos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PandasDemos/data_onehot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="demo1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -481,6 +469,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatplotDemos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatplotDemos/demo3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="gridspecDemo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -506,18 +516,18 @@
     <list>
       <item itemvalue="Jupyter Notebook.DataMining" />
       <item itemvalue="Python.demo1" />
-      <item itemvalue="Python.data_onehot" />
       <item itemvalue="Python.gridspecDemo1" />
       <item itemvalue="Python.demo1 (1)" />
       <item itemvalue="Python.demo2" />
+      <item itemvalue="Python.demo3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo3" />
         <item itemvalue="Python.demo2" />
         <item itemvalue="Python.demo1 (1)" />
         <item itemvalue="Python.gridspecDemo1" />
         <item itemvalue="Python.demo1" />
-        <item itemvalue="Python.data_onehot" />
       </list>
     </recent_temporary>
   </component>
@@ -535,15 +545,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="201" y="82" width="1228" height="817" extended-state="1" />
+    <frame x="234" y="35" width="1228" height="817" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.14418213" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.15261383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011876" side_tool="true" weight="0.18436578" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2937931" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25435072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35172415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,12 +563,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32689655" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.27448276" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.27448276" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3298479" />
-      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.32462057" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.19814503" />
       <window_info anchor="right" id="Redis Servers" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3298479" />
     </layout>
@@ -772,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotDemos/gridspecDemo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/lib/index_tricks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -793,27 +796,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SklearnDemos/stand_normal.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="177">
           <caret line="5155" column="7" selection-start-line="5155" selection-start-column="7" selection-end-line="5155" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/core/shape_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="1197">
           <caret line="286" column="8" selection-start-line="286" selection-start-column="8" selection-end-line="286" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SklearnDemos/stand_normal.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/MatplotDemos/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -822,15 +825,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MatplotDemos/demo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state relative-caret-position="9">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatplotDemos/gridspecDemo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="2649" column="4" selection-start-line="433" selection-start-column="34" selection-end-line="433" selection-end-column="42" />
+        <state relative-caret-position="-740">
+          <caret line="1707" column="4" selection-start-line="1707" selection-start-column="4" selection-end-line="1707" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatplotDemos/demo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="75" selection-start-line="75" selection-end-line="76" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1556248460314" expanded="true" signature="132:137" ph="..." />
+            <marker date="1556248460314" expanded="true" signature="397:406" ph="..." />
+            <marker date="1556248460314" expanded="true" signature="1019:1028" ph="..." />
+            <marker date="1556248460314" expanded="true" signature="1019:2330" ph="..." />
+            <marker date="1556248460314" expanded="true" signature="1488:1497" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
