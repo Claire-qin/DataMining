@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30e8a3df-3fda-421b-916c-aee40bab0bbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MatplotDemos/demo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumpyDemos/.ipynb_checkpoints/5. ndarray_ops-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NumpyDemos/.ipynb_checkpoints/5. ndarray_ops-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumpyDemos/5. ndarray_ops.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NumpyDemos/5. ndarray_ops.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="30e8a3df-3fda-421b-916c-aee40bab0bbe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -546,7 +539,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="234" y="35" width="1228" height="817" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.15261383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
