@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e8a3df-3fda-421b-916c-aee40bab0bbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BasicTools/.ipynb_checkpoints/random_package-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicTools/random_package.ipynb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cases/RecommdationSystem/BookCrossing/dataset/BX-Book-Ratings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cases/RecommdationSystem/BookCrossing/dataset/BX-Books.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cases/RecommdationSystem/BookCrossing/dataset/BX-Users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cases/RecommdationSystem/BookCrossing/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,21 +44,21 @@
     <session id="-304308772">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="2" />
+          <entry key="csv" value="3" />
           <entry key="ignore" value="2" />
           <entry key="ipynb" value="2" />
-          <entry key="py" value="54" />
+          <entry key="py" value="57" />
           <entry key="pyi" value="1" />
           <entry key="ttl" value="2" />
           <entry key="txt" value="1" />
@@ -63,9 +66,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSV" value="1" />
           <entry key="IPNB" value="2" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="54" />
+          <entry key="Python" value="57" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -75,14 +79,14 @@
           <entry key="csv" value="13" />
           <entry key="dummy" value="14" />
           <entry key="ignore" value="5" />
-          <entry key="py" value="5062" />
+          <entry key="py" value="5101" />
           <entry key="ttl" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="33" />
-          <entry key="Python" value="13551" />
+          <entry key="Python" value="13590" />
         </counts>
       </usages-collector>
     </session>
@@ -98,48 +102,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MatplotDemos/demo1.py">
+        <entry file="file://$PROJECT_DIR$/Cases/RecommdationSystem/BookCrossing/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MatplotDemos/demo2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MatplotDemos/gridspecDemo1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="22">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MatplotDemos/demo3.py">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/sklearn/neighbors/unsupervised.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="75" selection-start-line="75" selection-end-line="76" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <marker date="1556248460314" expanded="true" signature="132:137" ph="..." />
-                <marker date="1556248460314" expanded="true" signature="397:406" ph="..." />
-                <marker date="1556248460314" expanded="true" signature="1019:1028" ph="..." />
-                <marker date="1556248460314" expanded="true" signature="1019:2330" ph="..." />
-                <marker date="1556248460314" expanded="true" signature="1488:1497" ph="..." />
-              </folding>
+            <state relative-caret-position="-1842">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -186,6 +161,7 @@
         <option value="$PROJECT_DIR$/MatplotDemos/demo2.py" />
         <option value="$PROJECT_DIR$/.ignore" />
         <option value="$PROJECT_DIR$/MatplotDemos/demo3.py" />
+        <option value="$PROJECT_DIR$/Cases/RecommdationSystem/BookCrossing/test.py" />
       </list>
     </option>
   </component>
@@ -195,9 +171,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="234" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="107" />
     <option name="width" value="1228" />
     <option name="height" value="817" />
   </component>
@@ -208,18 +184,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataMining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataMining" type="462c0819:PsiDirectoryNode" />
-              <item name="MatplotDemos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
@@ -308,6 +278,15 @@
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.6.4 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.4 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="201750427" type="70582d5e:PySkeletonsNode" />
             </path>
             <path>
@@ -344,6 +323,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,12 +339,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PandasDemos" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cases/NatureLanguage/ign_comments/dataset" />
+      <recent name="$PROJECT_DIR$/Cases/RecommdationSystem/BookCrossing/dataset" />
+      <recent name="$PROJECT_DIR$/PandasDemos/srcdata" />
       <recent name="$PROJECT_DIR$/other/srcdata" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PandasDemos/srcdata" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PandasDemos" />
       <recent name="$PROJECT_DIR$/other/srcdata" />
     </key>
   </component>
@@ -541,9 +523,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="35" width="1228" height="817" extended-state="1" />
+    <frame x="47" y="107" width="1228" height="817" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.15261383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.24114671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011876" side_tool="true" weight="0.18436578" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -558,7 +540,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32689655" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.27448276" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.27448276" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -679,13 +661,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PandasDemos/srcdata/sales_data_types.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/reshape/concat.py">
@@ -710,16 +692,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/other/srcdata/dsc.nlp-bigdatalab.org.ttl" />
-    <entry file="file://$PROJECT_DIR$/other/srcdata/dsc.nlp-bigdatalab.org2.ttl">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/ttl_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/other/srcdata/dsc.nlp-bigdatalab.org2.ttl" />
+    <entry file="file://$PROJECT_DIR$/other/ttl_parser.py" />
     <entry file="file://$PROJECT_DIR$/PandasDemos/data_onehot2.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/cm.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -764,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,9 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SklearnDemos/stand_normal.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -805,30 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
           <caret line="286" column="8" selection-start-line="286" selection-start-column="8" selection-end-line="286" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotDemos/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotDemos/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatplotDemos/gridspecDemo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -848,16 +792,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MatplotDemos/demo3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="75" selection-start-line="75" selection-end-line="76" selection-end-column="13" />
+        <state relative-caret-position="1234">
+          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <marker date="1556248460314" expanded="true" signature="132:137" ph="..." />
             <marker date="1556248460314" expanded="true" signature="397:406" ph="..." />
             <marker date="1556248460314" expanded="true" signature="1019:1028" ph="..." />
-            <marker date="1556248460314" expanded="true" signature="1019:2330" ph="..." />
-            <marker date="1556248460314" expanded="true" signature="1488:1497" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatplotDemos/gridspecDemo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatplotDemos/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatplotDemos/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cases/RecommdationSystem/BookCrossing/dataset/BX-Books.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SklearnDemos/stand_normal.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1581">
+          <caret line="552" column="4" selection-start-line="552" selection-start-column="4" selection-end-line="552" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cases/RecommdationSystem/BookCrossing/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/sklearn/neighbors/unsupervised.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1842">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
