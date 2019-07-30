@@ -19,9 +19,10 @@ def fast_fillna(data):
     print(data)
 
 
-def split_fillna(data, columns, by):
+def split_fillna(data, columns, by, method='mean'):
     # 方法一：对原df进行先拆分填缺省值，再组合的操作
     # 需要先进行reset_index(）等操作
+    # 暂时提供了mean、max和min三种方法
     assert isinstance(data, pd.DataFrame)
     assert isinstance(columns, list)
     index = data.index
@@ -29,25 +30,36 @@ def split_fillna(data, columns, by):
     filled_data = pd.DataFrame()
     for byvalue in byvalues:
         data_index = data[by]==byvalue   # 根据每个by列的值选取指定的行
-        data_filled = data[data_index].fillna(data[data_index][columns].mean())
+        if method == 'mean':
+            data_filled = data[data_index].fillna(data[data_index][columns].mean())
+        elif method == 'max':
+            data_filled = data[data_index].fillna(data[data_index][columns].max())
+        elif method == 'min':
+            data_filled = data[data_index].fillna(data[data_index][columns].min())
         filled_data = filled_data.append(data_filled)   # 进行拼接
     new_df = filled_data.reindex(index)    # 按照原index排列
     return new_df
 
 
-def groupby_fillna(data, columns, by):
+def groupby_fillna(data, columns, by,  method='mean'):
     # 方法二：的一致性
     # 需要先进行reset_index(）等操作
     assert isinstance(data, pd.DataFrame)
     assert isinstance(columns, list)
-    df_means = data.groupby(by=by)[columns].mean()
+    df_filled = None
+    if method == 'mean':
+        df_filled = data.groupby(by=by)[columns].mean()
+    elif method == 'max':
+        df_filled = data.groupby(by=by)[columns].max()
+    elif method == 'min':
+        df_filled = data.groupby(by=by)[columns].min()
     df_nulls = data[columns].isnull()
 
     # 依次填充每列的缺失值
     for col in columns:
         null_index = df_nulls[col]    # 每列缺失值位置
         by_values = list(data.loc[null_index, by])   # 缺失位置出对应的by列的值
-        fill_value = df_means.loc[by_values, col]
+        fill_value = df_filled.loc[by_values, col]
 
         fill_value.index = data.loc[null_index, col].index   # 将填充值的index改为缺失值所在的index
         data.loc[null_index, col] = fill_value
@@ -64,14 +76,15 @@ if __name__ == '__main__':
                        'industry': ['农业1', '农业1', '农业1', '农业2', '农业2', '农业4', '农业2', '农业3']},
                       index=list('ABCDEFGH'))
 
-    fast_fillna(df)
+    # fast_fillna(df)
+    print(df)
 
 
     # df2 = split_fillna(df, ['value2'], by='industry')
     # print(df2)
 
-    # df3 = groupby_fillna(df, ['value', 'value2'], by='industry')
-    # print(df3)
+    df3 = groupby_fillna(df, ['value', 'value2'], by='industry', method='min')
+    print(df3)
 
 
 
