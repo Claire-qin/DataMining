@@ -21,7 +21,7 @@ def generate_ID(gender=None):
 
     # 6位地址码
     codelist = get_districtcodes()
-    id_location = codelist[random.randint(0, len(codelist))]
+    id_location = codelist[random.randint(0, len(codelist)-1)]   # randint为闭区间，注意-1
 
     # 8位生日编码
     date_start = time.mktime((1900, 1, 1, 0, 0, 0, 0, 0, 0))
