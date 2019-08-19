@@ -44,15 +44,16 @@
     <session id="-304308772">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -147,7 +148,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasicTools/ID_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
+            <state relative-caret-position="634">
               <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding>
                 <element signature="e#0#18#1" />
@@ -241,7 +242,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="95" />
     <option name="y" value="30" />
     <option name="width" value="1228" />
@@ -539,10 +540,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="30" width="1228" height="817" extended-state="1" />
-    <editor active="true" />
+    <frame x="95" y="30" width="1228" height="817" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.27655986" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.28077573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011876" side_tool="true" weight="0.18436578" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -637,13 +637,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PandasDemos/srcdata/sales_data_types.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/reshape/concat.py">
@@ -885,7 +885,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BasicTools/ID_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
+        <state relative-caret-position="634">
           <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
           <folding>
             <element signature="e#0#18#1" />
