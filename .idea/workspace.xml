@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e8a3df-3fda-421b-916c-aee40bab0bbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maths/loss_function_plot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +15,7 @@
     <SUITE FILE_PATH="coverage/DataMining$data_onehot.coverage" NAME="data_onehot Coverage Results" MODIFIED="1545984894276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PandasDemos" />
     <SUITE FILE_PATH="coverage/DataMining$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1556248460320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatplotDemos" />
     <SUITE FILE_PATH="coverage/DataMining$ttl_parser.coverage" NAME="ttl_parser Coverage Results" MODIFIED="1545966437456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/other" />
+    <SUITE FILE_PATH="coverage/DataMining$loss_function_plot.coverage" NAME="loss_function_plot Coverage Results" MODIFIED="1572318745020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maths" />
     <SUITE FILE_PATH="coverage/DataMining$fillna_others4one.coverage" NAME="fillna_others4one Coverage Results" MODIFIED="1563956981872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PandasDemos" />
     <SUITE FILE_PATH="coverage/DataMining$sample_weights.coverage" NAME="sample_weights Coverage Results" MODIFIED="1564479111978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SklearnDemos" />
     <SUITE FILE_PATH="coverage/DataMining$groupby_fillna.coverage" NAME="groupby_fillna Coverage Results" MODIFIED="1564465968122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PandasDemos" />
@@ -44,16 +45,16 @@
     <session id="-304308772">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,7 +62,7 @@
           <entry key="csv" value="3" />
           <entry key="ignore" value="2" />
           <entry key="ipynb" value="2" />
-          <entry key="py" value="70" />
+          <entry key="py" value="75" />
           <entry key="pyi" value="1" />
           <entry key="ttl" value="2" />
           <entry key="txt" value="6" />
@@ -72,24 +73,24 @@
           <entry key="CSV" value="1" />
           <entry key="IPNB" value="2" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="70" />
+          <entry key="Python" value="75" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="8553" />
+          <entry key="Python Console" value="8658" />
           <entry key="csv" value="13" />
           <entry key="dummy" value="14" />
           <entry key="ignore" value="5" />
-          <entry key="py" value="10706" />
+          <entry key="py" value="12414" />
           <entry key="ttl" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="33" />
-          <entry key="Python" value="19259" />
+          <entry key="Python" value="21072" />
         </counts>
       </usages-collector>
     </session>
@@ -145,7 +146,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BasicTools/ID_generator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="634">
@@ -153,6 +154,22 @@
               <folding>
                 <element signature="e#0#18#1" />
                 <marker date="1565080243607" expanded="true" signature="1737:1738" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Maths/loss_function_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="131" column="16" lean-forward="true" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+              <folding>
+                <element signature="e#157#175#0" expanded="true" />
+                <marker date="1572318745011" expanded="true" signature="240:426" ph="..." />
+                <marker date="1572318745011" expanded="true" signature="594:699" ph="..." />
+                <marker date="1572318745011" expanded="true" signature="936:961" ph="..." />
+                <marker date="1572318745011" expanded="true" signature="1726:1860" ph="..." />
               </folding>
             </state>
           </provider>
@@ -233,6 +250,7 @@
         <option value="$PROJECT_DIR$/PandasDemos/groupby_fillna.py" />
         <option value="$PROJECT_DIR$/SklearnDemos/sample_weights.py" />
         <option value="$PROJECT_DIR$/BasicTools/ID_generator.py" />
+        <option value="$PROJECT_DIR$/Maths/loss_function_plot.py" />
       </list>
     </option>
   </component>
@@ -243,8 +261,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
-    <option name="y" value="30" />
+    <option name="x" value="183" />
+    <option name="y" value="23" />
     <option name="width" value="1228" />
     <option name="height" value="817" />
   </component>
@@ -265,7 +283,7 @@
             <path>
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataMining" type="462c0819:PsiDirectoryNode" />
-              <item name="BasicTools" type="462c0819:PsiDirectoryNode" />
+              <item name="Maths" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
@@ -317,6 +335,15 @@
               <item name="&lt; Python 3.6.4 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="python3.6" type="462c0819:PsiDirectoryNode" />
               <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.4 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
               <item name="pandas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,6 +361,21 @@
               <item name="&lt; Python 3.6.4 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="201750427" type="70582d5e:PySkeletonsNode" />
             </path>
+            <path>
+              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.4 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="201750427" type="70582d5e:PySkeletonsNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.4 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="201750427" type="70582d5e:PySkeletonsNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -348,7 +390,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/virtualenvs/django_ev1/bin/python3.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -379,7 +421,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ID_generator">
+  <component name="RunManager" selected="Python.loss_function_plot">
     <configuration name="DataMining" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -412,28 +454,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicTools/ID_generator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataMining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatplotDemos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatplotDemos/demo3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -486,6 +506,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="loss_function_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Maths" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maths/loss_function_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sample_weights" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -510,19 +552,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.DataMining" />
-      <item itemvalue="Python.demo3" />
       <item itemvalue="Python.groupby_fillna" />
       <item itemvalue="Python.fillna_others4one" />
       <item itemvalue="Python.sample_weights" />
       <item itemvalue="Python.ID_generator" />
+      <item itemvalue="Python.loss_function_plot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.loss_function_plot" />
         <item itemvalue="Python.ID_generator" />
         <item itemvalue="Python.sample_weights" />
         <item itemvalue="Python.groupby_fillna" />
         <item itemvalue="Python.fillna_others4one" />
-        <item itemvalue="Python.demo3" />
       </list>
     </recent_temporary>
   </component>
@@ -540,14 +582,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="30" width="1228" height="817" extended-state="0" />
+    <frame x="183" y="23" width="1228" height="817" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.28077573" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.14333895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011876" side_tool="true" weight="0.18436578" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3627586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4648276" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24698795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,12 +599,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32689655" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.23975904" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.20843373" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.3298479" />
-      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.19814503" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3296796" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.85581785" />
       <window_info anchor="right" id="Redis Servers" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3298479" />
     </layout>
@@ -583,16 +625,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="3081" column="12" selection-start-line="3081" selection-start-column="12" selection-end-line="3081" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/accessor.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -636,15 +668,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PandasDemos/srcdata/sales_data_types.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/reshape/concat.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -725,13 +757,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/201750427/numpy/core/multiarray.py" />
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="5155" column="7" selection-start-line="5155" selection-start-column="7" selection-end-line="5155" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/core/shape_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
@@ -795,13 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2927" column="8" selection-start-line="2927" selection-start-column="8" selection-end-line="2927" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -890,6 +908,48 @@
           <folding>
             <element signature="e#0#18#1" />
             <marker date="1565080243607" expanded="true" signature="1737:1738" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/201750427/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="195" column="4" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="302" column="4" selection-start-line="302" selection-start-column="4" selection-end-line="302" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="2030" column="8" selection-start-line="2030" selection-start-column="8" selection-end-line="2030" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maths/loss_function_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="131" column="16" lean-forward="true" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+          <folding>
+            <element signature="e#157#175#0" expanded="true" />
+            <marker date="1572318745011" expanded="true" signature="240:426" ph="..." />
+            <marker date="1572318745011" expanded="true" signature="594:699" ph="..." />
+            <marker date="1572318745011" expanded="true" signature="936:961" ph="..." />
+            <marker date="1572318745011" expanded="true" signature="1726:1860" ph="..." />
           </folding>
         </state>
       </provider>
