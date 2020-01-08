@@ -5,7 +5,7 @@
 # @Projcet :
 # @Software: PyCharm
 
-from sklearn.model_selection import ShuffleSplit,
+from sklearn.model_selection import ShuffleSplit
 from sklearn.metrics import make_scorer
 from sklearn.compose import ColumnTransformer
 import numpy as np

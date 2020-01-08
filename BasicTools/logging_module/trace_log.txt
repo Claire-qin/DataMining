@@ -1,0 +1,8 @@
+2020-01-08 09:52:42,852 - traceback - INFO - 开始记录日志信息！
+2020-01-08 09:52:42,852 - traceback - WARNING - 出现某些异常！
+2020-01-08 09:52:42,852 - traceback - ERROR - 无法打开destination.txt
+Traceback (most recent call last):
+  File "/Users/guofei/PycharmProjects/DataMining/BasicTools/logging_module/logging_traceback_sample.py", line 30, in logger_traceback
+    open("destination.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'destination.txt'
+2020-01-08 09:52:42,853 - traceback - INFO - 日记记录结束！
